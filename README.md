@@ -4,7 +4,7 @@ This project is a sophisticated stock trading bot that uses **Reinforcement Lear
 
 The agent evolves beyond simple indicators, incorporating concepts like **market trends**, **support/resistance**, and **Fibonacci levels** to make nuanced decisions. Its goal is not just to maximize profit but to **learn from the consequences of its actions**, including taking profits, managing risk, and avoiding passivity.
 
-> *(You can replace the URL above with a screenshot of your running application)*
+> ![image](https://github.com/user-attachments/assets/5e5edf1e-dc1a-4928-a585-642ed856c68d)
 
 ## ✨ Features
 
