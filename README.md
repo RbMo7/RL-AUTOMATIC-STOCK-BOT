@@ -4,8 +4,8 @@ This project is a sophisticated stock trading bot that uses Reinforcement Learni
 
 The agent evolves beyond simple indicators, incorporating concepts like market trends, support/resistance, and Fibonacci levels to make nuanced decisions. Its goal is not just to maximize profit, but to do so by learning from the consequences of its actions, including taking profits, managing risk, and avoiding passivity.
 
-(You can replace the URL above with a screenshot of your running application)
 
+(You can replace the URL above with a screenshot of your running application)
 ✨ Features
 
     Sophisticated RL Agent:
@@ -83,26 +83,23 @@ The agent evolves beyond simple indicators, incorporating concepts like market t
 Follow these steps to get the project running on your local machine.
 
     Clone the Repository (or download the files):
-    Bash
 
-git clone <your-repo-url>
-cd <your-repo-folder>
+    git clone <your-repo-url>
+    cd <your-repo-folder>
 
-Create a Virtual Environment:
-It's highly recommended to use a virtual environment to manage dependencies.
-Bash
+    Create a Virtual Environment:
+    It's highly recommended to use a virtual environment to manage dependencies.
 
-python -m venv myenv
+    python -m venv myenv
 
-Activate the environment:
+    Activate the environment:
 
-    On Windows: myenv\Scripts\activate
+        On Windows: myenv\Scripts\activate
 
-    On macOS/Linux: source myenv/bin/activate
+        On macOS/Linux: source myenv/bin/activate
 
-Install Dependencies:
-Install all the required libraries from the requirements.txt file.
-Bash
+    Install Dependencies:
+    Install all the required libraries from the requirements.txt file.
 
     pip install -r requirements.txt
 
@@ -122,7 +119,6 @@ Bash
 
     Run the Streamlit App:
     Make sure your virtual environment is activated. Then, run the following command in your terminal:
-    Bash
 
     streamlit run your_script_name.py
 
