@@ -110,7 +110,9 @@ To create `genius_trader_agent.zip`:
 │   └── genius_trader_agent.zip   # Generic fallback model
 ├── tensorboard_logs/
 │   └── AAPL_2025-06-28.../       # TensorBoard training logs
-├── your_script_name.py           # Main Streamlit app
+├── automateTade.py           # Main Streamlit app
+├── PreviouslyTrainedModels       # Phases of trained models to achieve final model
+├── ScrapingNepseStock       # Initial trial for nepse stock analysis, stopped due to lack of data
 └── requirements.txt              # Dependency list
 ```
 
