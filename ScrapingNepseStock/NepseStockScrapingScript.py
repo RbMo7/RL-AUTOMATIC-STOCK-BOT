@@ -48,7 +48,7 @@ def click_next_page(driver):
         return False
 
 if __name__ == "__main__":
-    url = "https://merolagani.com/CompanyDetail.aspx?symbol=GHL#0"
+    url = "https://merolagani.com/CompanyDetail.aspx?symbol=PHCL#0"
     options = webdriver.ChromeOptions()
     options.add_argument("--start-maximized")
     driver = webdriver.Chrome(options=options)
@@ -81,7 +81,7 @@ if __name__ == "__main__":
 
         page_count += 1
 
-    save_to_csv(all_data, "price_history_ghl.csv")
+    save_to_csv(all_data, "price_history_phcl.csv")
     print("📁 All data saved to price_history_ghl.csv")
 
     driver.quit()
