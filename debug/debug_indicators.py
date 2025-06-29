@@ -3,7 +3,7 @@ import yfinance as yf
 import pandas_ta as ta
 import traceback
 
-#comment herirehrjhejffjghrefgeubjdbjehu=jfhefhruhfuhrhfrbsbjfsbabf
+#comment 
 print("--- Starting Minimal Debug Script ---")
 
 try:
