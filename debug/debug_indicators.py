@@ -2,8 +2,7 @@ import pandas as pd
 import yfinance as yf
 import pandas_ta as ta
 import traceback
-
-#comment 
+#indicators
 print("--- Starting Minimal Debug Script ---")
 
 try:
